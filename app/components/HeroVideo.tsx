@@ -62,9 +62,9 @@ export default function HeroVideo({
           flex flex-col items-center justify-end
           text-center
           bottom-0
-          px-5 pt-20
-          pb-8
-          sm:pb-10 sm:px-10
+          px-4 pt-16
+          pb-6
+          sm:px-8 sm:pb-10
           md:items-start md:text-left md:px-14 md:pb-12
           lg:px-20 lg:pb-16
           md:max-w-2xl
@@ -87,7 +87,7 @@ export default function HeroVideo({
         {/* Headline */}
         <h1 className="
           font-extrabold leading-tight tracking-tight text-white
-          text-[2rem] sm:text-4xl md:text-5xl lg:text-6xl
+          text-[1.6rem] sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl
           mb-0
         ">
           Hari Jadi Kita
@@ -96,8 +96,8 @@ export default function HeroVideo({
         {/* Sub text */}
         <p className="
           text-white/80 font-light leading-snug
-          text-sm sm:text-base
-          max-w-[280px] sm:max-w-sm md:max-w-none
+          text-xs sm:text-sm md:text-base
+          max-w-[240px] sm:max-w-sm md:max-w-none
           mb-1
         ">
           Setiap detik bersamamu adalah halaman baru yang tak ingin kuakhiri.

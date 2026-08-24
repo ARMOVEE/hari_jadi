@@ -18,8 +18,8 @@ export default function Navbar({ isNight, onToggle }: NavbarProps) {
         display: "flex",
         alignItems: "center",
         justifyContent: "space-between",
-        padding: "0 clamp(16px, 4vw, 40px)",
-        height: "clamp(52px, 7vh, 68px)",
+        padding: "0 clamp(10px, 4vw, 40px)",
+        height: "clamp(48px, 7vh, 68px)",
         background: "rgba(255,255,255,0.06)",
         backdropFilter: "blur(18px) saturate(1.4)",
         WebkitBackdropFilter: "blur(18px) saturate(1.4)",
@@ -61,8 +61,8 @@ export default function Navbar({ isNight, onToggle }: NavbarProps) {
           Anniversary
         </span>
 
-        {/* Decorative mini hearts */}
-        <span style={{ display: "flex", gap: "4px", opacity: 0.5 }}>
+        {/* Decorative mini hearts — hidden on very small screens */}
+        <span style={{ display: "flex", gap: "4px", opacity: 0.5 }} className="hidden sm:flex">
           {["♡", "♡"].map((h, i) => (
             <span
               key={i}
